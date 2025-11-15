@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: '[https://github.com/gsnigdha415/2tier](https://github.com/gsnigdha415/2tier.git)'
+                git branch: 'main', url: 'https://github.com/gsnigdha415/2tier.git'
             }
         }
         stage('Build Docker Image') {
